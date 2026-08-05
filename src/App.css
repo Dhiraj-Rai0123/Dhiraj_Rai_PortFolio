@@ -1,0 +1,17 @@
+.active{
+    color:blue;
+    font-weight:bold;
+
+}
+.active:hover{
+    cursor:pointer;
+    text-decoration:underline;
+
+
+}
+.spacing{
+    letter-spacing: 5px;
+    font-weight:bold;
+    text-decoration:underline
+    
+}
