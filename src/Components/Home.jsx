@@ -105,7 +105,7 @@ const Home = () => {
        </div>
       </div>
     </div>
-    
+    <p>Dhiraj Rai</p>
     <hr className="w-full border-blue-800" />
   
     </>
