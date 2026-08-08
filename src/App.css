@@ -9,3 +9,23 @@
 
 
 }
+.mySwiper .swiper-button-next,
+.mySwiper .swiper-button-prev {
+    background-color:white;
+    width:40px;
+    height:40px;
+    border-radius: 50%;
+    color:green;
+    
+    
+}
+.mySwiper .swiper-button-next::after,
+.mySwiper .swiper-button-prev::after {
+    font-size: 20px;
+    
+    
+}
+.next_pre .swiper-button-next::after,
+.next_pre .swiper-button-prev::after {
+    font-size: 30px;
+}
