@@ -1,5 +1,6 @@
 
 import React from 'react'
+import AboutMe from './AboutMe'
 import draj from "../assets/draj.jpg"
 import pythone1 from "../assets/img/pythone1.png"
 import pythone2 from "../assets/img/pythone2.png"
@@ -57,7 +58,7 @@ const Home = () => {
     </div>
     <p>Dhiraj Rai</p>
     <hr className="w-full border-blue-800" />
-  
+  <AboutMe />
     </>
   )
 }

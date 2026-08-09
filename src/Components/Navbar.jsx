@@ -5,8 +5,9 @@ import logo from "../assets/logo.jpg"
 import { CiMenuFries } from "react-icons/ci";
 import { MdDarkMode } from "react-icons/md";
 import { MdOutlineDarkMode } from "react-icons/md";
+
 import { RxCross2 } from "react-icons/rx";
-const Navbar = () => {
+const Navbar = ({darkMode, togleDark}) => {
   const [open, setOpen]=useState(false)
   const toggleMenu=()=>{
     setOpen(!open)
@@ -51,8 +52,11 @@ const Navbar = () => {
 
   </div>
   <div>
-  <MdOutlineDarkMode className="size-7 hover:pointer hover:text-blue-500"/>
-
+  {/*  */}
+   <button onClick={togleDark} className="cursor-pointer">
+     {darkMode ?<MdOutlineDarkMode className="size-7 hover:pointer hover:text-blue-500"/>:<MdDarkMode  className="size-7 hover:pointer hover:text-blue-500"/>}
+   </button>
+  
   </div>
   <div className="md:hidden" onClick={toggleMenu}>
 {
