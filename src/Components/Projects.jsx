@@ -36,7 +36,7 @@ const Projects = () => {
     },
   }} >
         <SwiperSlide>
-            <div className="border h-150 w-full ">
+            <div className=" h-150 w-full ">
             <h1 className="md : text-2xl sm:xl font-bold text-center py-5">Frontend Development</h1> 
               <div className="relative h-100 ">
                 <img
@@ -108,32 +108,27 @@ const Projects = () => {
 
   
         <SwiperSlide>
-        <div className="border h-150 w-full ">
+        <div className=" h-150 w-full ">
                <h1 className="md : text-2xl sm:xl font-bold text-center underline py-5">CCNA Projects</h1>   
-               <div className="relative  ">
+               <div className="relative h-100  ">
                 <img
                 src={img7}
                 alt="vpn"
-                className="w-30 h-30 "
+                className=" shadow-lg  hover:scale-110 duration-500 w-30 h-30 absolute top-45/100 left-10 "
                 
                 />
                 <img 
                 src={img8}
                 alt="Cisco packet tracer"
-                className="w-50 h-40"
+                className="w-30 h-20 rounded-lg shadow-xl absolute top-1/2 left-4/10"
                 />
-                <img 
-                src={img9}
-                alt="cisco"
-                className="w-40 h-40"
-                
-                />
+              
                 <img 
                 src={img10}
                 alt="netowking"
-                className="w-40 h-40"
+                className="absolute top-4/5"
             
-                />
+                /> 
                
                <div>
             <p className="px-2 text-justify"> 
