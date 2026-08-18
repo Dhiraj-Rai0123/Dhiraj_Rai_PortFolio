@@ -1,18 +1,15 @@
 import React from 'react'
-const Skills = () => {
 
+const Skills = () => {
   return (
-   <>
- <div className="
-  transition-all
-  duration-300
-  ease-in-out
-  hover:scale-105
-  hover:-translate-y-2
-">
-  Hover Me
-</div>
-   </>
+  <> 
+  <div className="h-100 w-100 border bg-gradient from-blue-200 via-green-300 to-blue-200">
+    <div className="">
+        
+    </div>
+  </div>
+  
+  </>
   )
 }
 

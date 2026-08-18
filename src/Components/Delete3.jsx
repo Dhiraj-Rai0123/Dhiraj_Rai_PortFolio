@@ -2,7 +2,13 @@ import React from 'react'
 
 const Delete3 = () => {
   return (
-    <div>Delete3</div>
+   <>
+   <div className="w-50 h-50">
+    <div>
+
+    </div>
+   </div>
+   </>
   )
 }
 
