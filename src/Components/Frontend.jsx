@@ -3,9 +3,14 @@ import React from 'react'
 const Frontend = () => {
   return (
    <>
-   <div>
+   <div className="border h-50">
+    <div className="border h-20 w-1/2 ">
+    
+ 
 
-    <h2>Dhiraj Rai</h2>
+    </div>
+
+
    </div>
    </>
   )
