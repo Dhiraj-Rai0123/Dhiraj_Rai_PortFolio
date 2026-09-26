@@ -21,11 +21,11 @@ const Navbar = ({darkMode, togleDark}) => {
 
 <div className=" flex justify-between  ">
  <h2 className=" ml-3">
-<img  src = {logo} alt="Logo" className=" sm:w-15 md:w-25"/>
+<img  src = {logo} alt="Logo" className=" w-15 md:w-25"/>
  <p className="sm:text-xs md:text-lg">Developer</p>
  </h2>
  <div className=" flex justify-between text-bold sm:text-sm md:text-xl gap-4 mr-5 mt-4  ">
-    <div className=" flex gap-3 sm:hidden md:flex">
+    <div className=" flex gap-3 hidden md:flex">
 <NavLink
   to="/" className={({ isActive }) =>
     `${isActive ? "active" : ""} hover:underline`
